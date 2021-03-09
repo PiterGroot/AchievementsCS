@@ -2,6 +2,7 @@ using System;
 
 namespace Functie
 {
+    //gold
     class Program
     {
         static void Main(string[] args)
