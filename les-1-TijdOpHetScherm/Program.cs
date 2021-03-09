@@ -3,6 +3,7 @@ using System.Threading;
 
 namespace Les1CS_BO
 {
+    //gold
     class Program
     {
         static void Main(string[] args)
