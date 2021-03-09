@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace CS_lessen
 {
-    //brons Les 2: DataTypes
+    //silver Les 2: LinearSearch
     class Program
     {
         static void Main(string[] args)
