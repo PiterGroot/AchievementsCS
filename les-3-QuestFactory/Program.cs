@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace cs
 {
-    //bronze
+    //brons QuestFactory
     class Program
     {
+        static void Main(string[] args)
+        {
+           Quest q = QuestFactory.CreateQuest(QuestType.WarriorTavern);
+           Console.WriteLine($"{q.Description}");
+           Console.ReadKey();
+        }
+
         public enum QuestType
         {
             GoblinDungeon,
@@ -20,7 +27,6 @@ namespace cs
         {
             public static Quest CreateQuest(QuestType questType)
             {
-                // -- Here are the if statements to replace with a switch statement --
                 switch (questType)
                 {
                     case QuestType.GoblinDungeon:
